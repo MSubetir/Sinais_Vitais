@@ -1,0 +1,26 @@
+#mapid {
+    height: 400px;
+}
+
+#highlights {
+    height: 400px;
+    overflow-y:scroll;
+}
+
+p,
+a {
+    color: '#fff';
+}
+
+.card {
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+
+html,
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    background-color: #f1f1f1;
+}
