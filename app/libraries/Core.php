@@ -22,6 +22,8 @@
       //Se está logado
       if($url[1] != 'login' && isLoggedIn() == false){
         header('location:' . URLROOT . '/pages/login');
+      }else if($url[1] == 'login' && isLoggedIn() == true){
+        header('location:' . URLROOT . '/index');
       }
 
       // Look in BLL for first value

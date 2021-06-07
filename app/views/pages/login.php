@@ -1,8 +1,6 @@
 <?php
 require APPROOT . '/views/includes/head.php';
-if(isLoggedIn()){
-    echo 'logado';
-};
+
 ?>
 
 <html>
